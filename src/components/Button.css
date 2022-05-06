@@ -4,6 +4,7 @@
 
 .btn {
   padding: 8px 20px;
+  white-space: nowrap;
   border-radius: 2px;
   outline: none;
   border: none;

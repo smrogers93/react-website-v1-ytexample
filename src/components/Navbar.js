@@ -29,9 +29,12 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL
-            <i className="fab fa-typo3" />
+            Shiloh Woodworks
           </Link>
+          <a className="navbar-icon" href="/">
+            <img className="invert" width="70" src="images/shiloh.png"></img>
+          </a>
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
@@ -66,11 +69,11 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact Us
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">Contact Us</Button>}
         </div>
       </nav>
     </>
