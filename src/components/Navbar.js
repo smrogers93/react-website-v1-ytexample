@@ -32,7 +32,12 @@ function Navbar() {
             Shiloh Woodworks
           </Link>
           <a className="navbar-icon" href="/">
-            <img className="invert" width="70" src="images/shiloh.png"></img>
+            <img
+              className="invert"
+              width="70"
+              alt="shiloh"
+              src="images/shiloh.png"
+            ></img>
           </a>
 
           <div className="menu-icon" onClick={handleClick}>
